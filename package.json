@@ -5,6 +5,11 @@
   "repository": "https://github.com/vanchao0729/type_express.git",
   "author": "vanchao0729 <vanchao0729@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "node dist/app.js",
+    "dev": "",
+    "build": "tsc -p ."
+  },
   "dependencies": {
     "express": "^4.17.1"
   },
