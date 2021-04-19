@@ -8,7 +8,9 @@ var api_news = express_1.default.Router();
 api_news.get('/', function (req, res, next) {
     res.send('News api here');
 });
-api_news.get('/info', function (req, res, next) {
-    res.send('News info api here');
+api_news.get('/info/:id', function (req, res, next) {
+    var id = req.params.id;
+    // res.send('News info api here');
+    res.send('News info id is ' + id);
 });
 module.exports = api_news;
