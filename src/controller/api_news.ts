@@ -1,4 +1,4 @@
-import express, {Application, Request, Response, NextFunction, Router} from 'express';
+import express, {Request, Response, NextFunction, Router} from 'express';
 
 var api_news: Router = express.Router();
 
