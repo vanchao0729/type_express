@@ -9,7 +9,7 @@ const greet = (who: string, action: string): string => {
 app.use('/api/news', require('./controller/api_news'));
 
 app.get('/', (req: Request, res:Response, next: NextFunction) => {
-    res.send(greet("Good ","morning"));
+    res.send(greet("Good ","morning") + ". This is a express based project");
 });
 
 app.listen(5000, () => {
